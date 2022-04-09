@@ -1,2 +1,53 @@
+#loginhtml {
+    background-image: url(../img/10.png);
+    background-position: center;
+    background-size: cover;
+}
+#iniciosesion {
+    margin: 5rem auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.caja-inicio {
+    padding: 0.5rem;
+    text-align: right;
+}
+.boton-inicio {
+    width: auto;
+    height: 2.5rem;
+    padding: 0.5rem;
+    background-color: var(--azuloscuro);
+    color: white;
+    border-radius: 10px;
+}
+.caja-sesion1 {
+    padding: 1rem;
+    width: 400px;
+    text-align: center;
+    display: flexbox;
+    flex-direction: column;
+    background-color: var(--azulclaro);
+    border: 1px solid var(--azulclaro);
+}
+.caja-sesion2 {
+    width: 400px;
+    text-align: center;
+    display: flexbox;
+    flex-direction: column;
+    background-color: white;
+    border: 1px solid var(--azulclaro);
+}
+.caja-sesion2 form {
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+}
+.caja-sesion2 input {
+    border: 1px solid var(--azulclaro);
+    margin: 0.5rem 1rem;
+}
 
 
