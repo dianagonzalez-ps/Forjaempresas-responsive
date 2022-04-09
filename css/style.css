@@ -139,13 +139,22 @@ body{
     height: 25px;
     width: 130px;
     margin-top: 15px;
+    color: #1D9AF2;
+    background-color: #292D3E;
+    border: 1px solid #1D9AF2;
+    border-radius: 4px;
+    padding: 0 15px;
+    cursor: pointer;
+    height:32px;
+    font-size:14px;
+    background-position: center;
+    transition: background 0.8s;
+    }
+.bot-1:active {
+    box-shadow: 0 3px 0 #2243ad;
+    top: 3px;
 }
 
-.bot-1:hover{
-    color: var(--white-color);
-    background-color:var(--orange2-color);
-
-}
 
 #banner{
     display: flex;
@@ -799,7 +808,7 @@ footer p{
         color: var(--white-color);
         cursor: pointer;
         height: 35px;
-        width: 150px;
+        width: 200px;
         margin-top: 15px;
         margin-right: 20px;
     }
@@ -1682,6 +1691,7 @@ footer p{
     color: var(--white-color);
     border: solid var(--orange2-color);
     margin-right: 10px;
+    cursor: pointer;
 }
 
 .btn_table i{
@@ -1901,6 +1911,14 @@ footer p{
         margin-right: 10px;
     }
 
+    .text_pacientes{
+        text-align: center;
+        font-size: 26px;
+        font-weight: 500;
+        color: var(--blue-color);
+        text-decoration: var(--blue2-color) underline; 
+    }
+
     .table{
         margin-bottom: 50px;
        
@@ -1960,6 +1978,7 @@ footer p{
         color: var(--white-color);
         border: solid var(--orange2-color);
         margin-right: 10px;
+        cursor: pointer;
     }
     
     .btn_table i{
@@ -2053,7 +2072,7 @@ footer p{
 
 .tittle_data i{
     margin-left: 1.5rem;
-    font-size: 22px;
+    font-size: 12px;
     
 }
 
@@ -2207,7 +2226,7 @@ footer p{
     
     .tittle_data i{
         margin-left: 1.5rem;
-        font-size: 22px;
+        font-size: 12px;
         
     }
     
@@ -2287,6 +2306,319 @@ footer p{
         font-size: 12px;
         width: 80px;
         height: 30px;
+        background-color: var(--orange2-color);
+        border-radius: 10px;
+        border: solid var(--orange2-color);
+    }
+    
+    .btn_save a{
+        text-decoration: none;
+        color: var(--white-color);
+        font-weight: 400;
+    
+    
+    }
+}
+
+
+@media screen and (min-width: 1024px){
+
+    #new_user{
+        display: flex;
+        padding: 10px;
+        flex-direction: column;
+        
+    }
+    
+    .tittle_registrer_form{
+        font-size: 25px;
+    }
+    
+    .registrer_form{
+        background-color: var(--silver2-color);
+        border: 2px solid var(--silver-color);
+        border-radius: 12px;
+       
+    }
+    
+    .form_border{
+        border: 2px solid var(--silver-color);
+        padding: 2rem;
+        margin-bottom: 3rem;
+    
+    }
+    
+    .data_date input{
+        border: 2px solid var(--blue3-color);
+        border-radius: 5px;
+        width: 250px;
+        height: 30px;
+        color: var(--silver-color);
+        font-size: 13px;
+        margin-top: 1rem;
+        margin-left: 2rem;
+        padding-left: 8px;  
+         
+    }
+    
+    .tittle_data{
+        font-size: 13px;
+        background-color: var(--blue3-color);
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin: 1rem 0;
+        padding: 2px;
+        border-radius: 5px;
+        border: 2px solid var(--blue2-color);  
+    }
+    
+    .tittle_data h2{
+        font-size: 15px;
+        font-weight: 500;
+        color: var(--white-color);
+        margin: 0.2rem auto;
+    }
+    
+    .tittle_data i{
+        margin-left: 1.5rem;
+        font-size: 15px;
+        
+    }
+    
+    .data_patient input{
+        border: 2px solid var(--blue3-color);
+        border-radius: 5px;
+        width: 400px;
+        height: 30px;
+        margin: 5px;
+        margin-left: 30px;
+        color: var(--silver-color);
+        font-size: 13px;
+        padding-left: 8px;
+    
+    
+    }
+    
+    .data_patient select{
+        border: 2px solid var(--blue3-color);
+        border-radius: 5px;
+        width: 400px;
+        height: 30px;
+        margin: 5px;
+        margin-left: 30px;
+        color: var(--silver-color);
+        font-size: 13px;
+        padding-left: 10px;
+    }
+    
+    .data2_patient select{
+        border: 2px solid var(--blue3-color);
+        border-radius: 5px;
+        width: 400px;
+        height: 30px;
+        margin: 5px;
+        color: var(--silver-color);
+        font-size: 13px;
+        margin-right: 20px;
+        padding-left: 8px; 
+    }
+    
+    .data2_patient input{
+        border: 2px solid var(--blue3-color);
+        border-radius: 5px;
+        width: 200px;
+        height: 25px;
+        margin: 5px;
+        color: var(--silver-color);
+        font-size: 10px;
+      
+    }
+    
+    .text_prueba{
+        font-size: 15px;
+        color: var(--silver3-color);
+    }
+    
+    .test-covid{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        margin: 20px 20px;
+        align-items: center;
+    }
+    
+    .test-covid input{
+        margin: 10px;
+    }
+    
+    .btn_save{
+        margin-top: 20px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    
+    .btn_save button{
+        font-size: 15px;
+        width: 100px;
+        height: 40px;
+        background-color: var(--orange2-color);
+        border-radius: 10px;
+        border: solid var(--orange2-color);
+    }
+    
+    .btn_save a{
+        text-decoration: none;
+        color: var(--white-color);
+        font-weight: 400;
+    
+    
+    }
+}
+
+@media screen and (min-width: 1200px){
+
+    #new_user{
+        display: flex;
+        padding: 10px;
+        flex-direction: column;
+        
+    }
+    
+    .tittle_registrer_form{
+        font-size: 30px;
+    }
+    
+    .registrer_form{
+        background-color: var(--silver2-color);
+        border: 2px solid var(--silver-color);
+        border-radius: 12px;
+       
+    }
+    
+    .form_border{
+        border: 2px solid var(--silver-color);
+        padding: 2rem;
+        margin-bottom: 3rem;
+    
+    }
+    
+    .data_date input{
+        border: 2px solid var(--blue3-color);
+        border-radius: 5px;
+        width: 250px;
+        height: 35px;
+        color: var(--silver-color);
+        font-size: 15px;
+        margin-top: 1rem;
+        margin-left: 6rem;
+        padding-left: 8px;  
+         
+    }
+    
+    .tittle_data{
+        font-size: 15px;
+        background-color: var(--blue3-color);
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin: 2rem 0;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 3px;
+        border-radius: 5px;
+        border: 2px solid var(--blue2-color);  
+    }
+    
+    .tittle_data h2{
+        font-size: 15px;
+        font-weight: 500;
+        color: var(--white-color);
+        margin: 0.2rem auto;
+    }
+    
+    .tittle_data i{
+        margin-left: 1.5rem;
+        font-size: 16px;
+        
+    }
+    
+    .data_patient input{
+        border: 2px solid var(--blue3-color);
+        border-radius: 5px;
+        width: 400px;
+        height: 35px;
+        margin: 5px;
+        margin-left: 6rem;
+        color: var(--silver-color);
+        font-size: 15px;
+        padding-left: 8px;
+    
+    
+    }
+    
+    .data_patient select{
+        border: 2px solid var(--blue3-color);
+        border-radius: 5px;
+        width: 400px;
+        height: 35px;
+        margin: 5px;
+        margin-left: 6rem;
+        color: var(--silver-color);
+        font-size: 15px;
+        padding-left: 10px;
+    }
+    
+    .data2_patient select{
+        border: 2px solid var(--blue3-color);
+        border-radius: 5px;
+        width: 400px;
+        height: 30px;
+        margin: 5px;
+        color: var(--silver-color);
+        font-size: 15px;
+        margin-right: 20px;
+        padding-left: 3rem; 
+    }
+    
+    .data2_patient input{
+        border: 2px solid var(--blue3-color);
+        border-radius: 5px;
+        width: 220px;
+        height: 25px;
+        margin: 5px;
+        color: var(--silver-color);
+        font-size: 15px;
+      
+    }
+    
+    .text_prueba{
+        font-size: 15px;
+        color: var(--silver3-color);
+    }
+    
+    .test-covid{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        margin: 20px 20px;
+        align-items: center;
+    }
+    
+    .test-covid input{
+        margin: 10px;
+    }
+    
+    .btn_save{
+        margin-top: 20px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    
+    .btn_save button{
+        font-size: 15px;
+        width: 100px;
+        height: 40px;
         background-color: var(--orange2-color);
         border-radius: 10px;
         border: solid var(--orange2-color);
