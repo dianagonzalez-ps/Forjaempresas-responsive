@@ -847,7 +847,7 @@ footer p{
     text-align: center;
     display: flexbox;
     flex-direction: column;
-    background-color: rgb(78, 206, 223);
+    background-color: rgb(116, 218, 231);
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
 }
@@ -873,8 +873,7 @@ footer p{
     width: 310px;
     box-shadow: 1px 1px 2px var(--black-color);
     border-bottom-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    
+    border-bottom-left-radius: 15px;   
 }
 
 .form-group{
@@ -938,8 +937,38 @@ footer p{
     animation: 3s but-1 1;
 }
 
+.but-1{
+    position: relative; left: 4rem;
+}
 
-@keyframes but-1{
+.botLogin{
+    font-size: 12px;
+    background-color: var(--blue2-color);
+    border-radius: 35px; 
+    border: 3px solid var(--blue2-color);
+    font-weight: bold;
+    color: var(--white-color);
+    cursor: pointer;
+    height: 29px;
+    width: 120px;
+    margin-top: 15px;
+    text-align: center;
+
+}
+
+.botLogin:hover{
+    color: var(--white-color);
+    background-color:var(--orange2-color);
+    animation: 3s botLogin 1;
+}
+
+.botLogin{
+    position: relative; right: 2.6rem;
+}
+
+
+
+@keyframes botLogin{
     25%, 75%{
         transform: scale(0.8);
     }
@@ -950,30 +979,7 @@ footer p{
 }
 
 
-.but-2{
-    background-color:var(--orange2-color);
-    color: var(--white-color);
-    padding: 0.3rem;
-    padding-left: 30px;
-    padding-right: 30px;
-    font-weight: 500;
-    font-size: 13px;
-    border-radius: 8px;
-    border-color: var(--acuamarine-color);
-    cursor: pointer;
-    margin: 15px;
-    position: relative; right: 3rem;
-
-}
-
-.but-2:hover{
-    color: var(--white-color);
-    background-color:var(--orange2-color);
-    animation: 3s but-2 1;
-}
-
-
-@keyframes but-2{
+@keyframes but-1{
     25%, 75%{
         transform: scale(0.8);
     }
@@ -1063,7 +1069,7 @@ footer p{
         text-align: center;
         display: flexbox;
         flex-direction: column;
-        background-color: rgb(78, 206, 223);
+        background-color: rgb(116, 218, 231);
         border-top-right-radius: 15px;
         border-top-left-radius: 15px;
     }
@@ -1128,7 +1134,7 @@ footer p{
         text-align: center;
         display: flexbox;
         flex-direction: column;
-        background-color: rgb(78, 206, 223);
+        background-color: rgb(116, 218, 231);
         border-top-right-radius: 15px;
         border-top-left-radius: 15px;
     }
@@ -1185,11 +1191,11 @@ footer p{
             position: relative; left: 6rem;
         }
 
-        .but-2{
-            
-            position: relative; right: 30px;
-        
-        }    
+        .botLogin{
+            position: relative; right: 2rem;
+        }
+
+          
 
 }
 
@@ -2720,23 +2726,7 @@ transform: rotate(3deg);
         font-weight: 400;
     
     }
-    .btn_save:hover{
-        color: var(--white-color);
-        background-color:var(--orange2-color);
-        animation: 3s btn_save 1;
-    }
-    
-    
-    @keyframes btn_save{
-        25%, 50%{
-            transform: scale(0.8);
-        }
-    
-        50%{
-            transform: scale(1.1);
-        }
-    }
-    
+  
 }
 
 
